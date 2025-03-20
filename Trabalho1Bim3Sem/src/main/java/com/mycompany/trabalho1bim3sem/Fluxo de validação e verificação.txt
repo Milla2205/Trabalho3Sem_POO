@@ -1,0 +1,17 @@
+Fluxo de validação e verificação
+
+1. View
+	coleta a placa
+	pergunta ao usuário se quer add info opc
+	envia dados para o controller
+2. Controller
+	recebe do view
+	chama o model para validar e processar dados
+3. Model
+	valida a placa do veiculo
+	se verdade, cria ou atualiza existente
+	retorna resp ao controller
+4. Controller
+	retorna resp ao view
+5. View
+	exibe mensag "cadastr com suss" ou "plac invalida"
