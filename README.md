@@ -4,6 +4,7 @@
 
 Objetivo do projeto:
   Desenvolver um software para uma concessionária que deve: cadastrar e gerenciar os veículos disponíveis para venda, permitir a inserção, edição, listagem e exclusão de veículos, funcionalidades específicas para organização dos registros, utilizar interfaces e classes abstratas e utilizar ArrayList para armazenar veículos.
+  O sistema também deve seguir o padrão de arquitetura MVC.
 
 Requisitos do Sistema:  
   Cadastro de Veículos: Placa do Veículo (com validação do formato correto: ex: "AAA-1234" ou "AAA1B23"); Marca; Modelo; Ano; Cor; Quilometragem rodada, Valor de Venda do Veiculo, Valor de FIPE do Veiculo; 
